@@ -1,0 +1,34 @@
+.sidenav {
+  background: #fafbfc;
+  padding: 30px;
+}
+
+.sidenav li a {
+  display: block;
+  min-width: 60px;
+  max-width: 140px;
+  margin: 0 auto 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  transition: 0.1s ease-out;
+}
+
+.sidenav li a:hover {
+  background: #b07dfb;
+}
+
+@media (max-width: 760px) {
+  .sidenav {
+    padding-top: 30px !important;
+  }
+  .sidenav ul {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  .sidenav li {
+    flex: 1 0 140px;
+  }
+}

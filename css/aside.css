@@ -1,0 +1,18 @@
+.anuncios {
+  background: #fafbfc;
+  padding: 30px;
+  display: grid;
+  align-content: start;
+  gap: 30px;
+}
+
+.anuncio-item img {
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .anuncios {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
+}
