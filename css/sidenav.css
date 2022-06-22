@@ -21,7 +21,7 @@
 
 @media (max-width: 760px) {
   .sidenav {
-    padding-top: 30px !important;
+    padding-top: 60px !important;
   }
   .sidenav ul {
     display: flex;
